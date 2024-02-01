@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #4deb4d;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.cxTresBarras{
+  display: none;
+}
+header span{
+  margin-left: 5%;
+}
+.imgPerfil{
+  margin-left: 5%;
+}
+.imgTresBarras{
+  margin-left: 58%;
+}
+.servicos-terciarios{
+  width: 100%;
+  height: 70px;
+  background-color: #18d4ac;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+.gastronomia, .hospedagem, .saude{
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 7px;
+}
+.imgGastronomia, .imgHospedagem, .imgSaude{
+  width: 30px;
+}
+.txCidade{
+  width: 100%;
+  height: 60px;
+  background-color: #a0eca0;
+  display: flex;
+  align-items: center;
+}
+.txCidade span{
+  margin-left: 10%;
+  font-family: cursive;
+}
+.servicosEncontrados{
+  width: 100%;
+  height: 750px;
+}
+.turismo{
+  width: 75%;
+  height: 100px;
+  background-color: #4deb4d;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 4px 10px black;
+  border: 1.5px solid black;
+}
+.turismo img{
+  width: 100px;
+  box-shadow: 5px 4px 10px black;
+  border-radius: 10px;
+}
+.divImg{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.academias, .supermercados, .sorveterias, .lanchonetes{
+  width: 50%;
+  height: 48px;
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  box-shadow: 5px 4px 10px black;
+  border-radius: 10px;
+  border: 1.5px solid black;
+}
